@@ -1,5 +1,3 @@
-# DribbleData
-
 # 🏀 DribbleData  
 
 DribbleData is a web application that allows users to explore NBA statistics through **interactive charts, filters, and summaries**.  
