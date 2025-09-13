@@ -49,19 +49,19 @@ It also features a **custom-built AI chatbot** that answers basketball-related q
 - Secret key for Flask sessions  
 
 ### Installation  
-#1. Clone this repo  
+1. Clone this repo  
    ```bash
    git clone https://github.com/yourusername/dribbledata.git
    cd dribbledata
 
-#2. Create and activate a virtual environment
+2. Create and activate a virtual environment
 
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 
 
-#3. Install dependencies
+3. Install dependencies
 
 pip install -r requirements.txt
 
@@ -72,7 +72,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 SECRET_KEY=your_flask_secret_key_here
 
 
-#4. Run the app
+4. Run the app
 
 python app.py
 
