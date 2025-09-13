@@ -46,20 +46,21 @@ It also features a **custom-built AI chatbot** that answers basketball-related q
 - OpenAI API key  
 - Secret key for Flask sessions  
 
-### Installation  
-1. Clone this repo  
-   ```bash
+## Installation  
+
+# #1. Clone this repo  
+
    git clone https://github.com/yourusername/dribbledata.git
    cd dribbledata
 
-2. Create and activate a virtual environment
+# #2. Create and activate a virtual environment
 
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 
 
-3. Install dependencies
+# #3. Install dependencies
 
 pip install -r requirements.txt
 
@@ -70,7 +71,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 SECRET_KEY=your_flask_secret_key_here
 
 
-4. Run the app
+# #4. Run the app
 
 python app.py
 
@@ -79,14 +80,14 @@ Visit in your browser:
 http://127.0.0.1:5000/
 
 
-##Challenges
+## Challenges
 
 Managing async responses from the OpenAI API and rendering them in the chat window
 
 Troubleshooting deployment bugs and external API data inconsistencies
 
 
-##What I Learned
+## What I Learned
 
 Integrating real-time AI tools into web applications
 
